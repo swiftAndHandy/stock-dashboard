@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import BaseCard from '../components/cards/BaseCard.vue';
-import DarkCard from '../components/cards/DarkCard.vue'
+import CorpCard from '../components/cards/CorpCard.vue';
+import DarkCard from '../components/cards/DarkCard.vue';
 import PageTitle from '../components/PageTitle.vue';
 </script>
 
@@ -11,6 +12,7 @@ import PageTitle from '../components/PageTitle.vue';
     <BaseCard>
       <h1>Test</h1>
     </BaseCard>
+    <CorpCard corpName="Apple"></CorpCard>
   </main>
 </template>
 
